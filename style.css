@@ -1,0 +1,63 @@
+body {
+    font-family: 'Inter', 'sans-serif';
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 17px;
+    margin: 150px;
+    padding: 60px;
+    width: 400px;
+    display: inline-block;
+}
+
+.main-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.name, .info, .about {
+  line-height: 1.4;
+  text-align: center;
+}
+
+.name {
+    color: white;
+} 
+
+.info {
+    color: hsl(75, 94%, 57%);
+
+}
+
+.about {
+    color: white;
+} 
+
+.form {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    font-weight:bold;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    height: 100%;
+    line-height: 3.5;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 17px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
