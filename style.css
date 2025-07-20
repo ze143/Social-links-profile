@@ -49,7 +49,7 @@ body {
     height: 100%;
 }
 
-.button {
+button {
     font-weight:bold;
     color: white;
     background-color: hsl(0, 0%, 20%);
